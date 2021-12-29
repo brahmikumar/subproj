@@ -5,8 +5,10 @@ class Registration extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: Text("Reg"),
+    return Center(
+      child: Container(
+        child: const Text("Reg"),
+      ),
     );
   }
 }
